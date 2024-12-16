@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent; /* Removes background color */
+  }
+  
+  .navbar button {
+    background-color: transparent; /* Removes background color */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .navbar button:hover {
+    background-color: darkred; /* Optional: add hover effect for button */
+  }
+  

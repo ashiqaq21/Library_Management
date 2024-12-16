@@ -1,0 +1,70 @@
+/* HomePage.css */
+
+.HomePage {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .HomePage h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #2ecc71;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-top: 20px;
+  }
+  
+  /* Add responsive styles */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .HomePage h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
+  

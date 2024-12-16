@@ -1,0 +1,72 @@
+/* General Page Styling */
+.HomePage {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    background-color: #b56767;
+    background-size: cover;  /* Ensure the image covers the whole container */
+    background-position: center;  /* Center the image */
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #ccc9c9;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  
+  /* List Styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin: 15px 0;
+  }
+  
+  /* Link Styling */
+  ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.3s ease;
+    width: 200px;
+    text-align: center;
+  }
+  
+  ul li a:hover {
+    background-color: #0056b3;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .HomePage {
+      padding: 30px;
+      margin: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    ul li a {
+      font-size: 1rem;
+      width: 150px;
+    }
+  }
+  
